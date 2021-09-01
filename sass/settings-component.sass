@@ -1,0 +1,133 @@
+@import "vars"
+
+.color-white
+    color: $white-color
+
+.color-green
+    color: $green-color
+
+.color-light-violet
+    color: $color-light-violet
+
+.color-dark-violet
+    color: $color-dark-violet
+
+a
+    text-decoration: none
+
+ul
+    margin: 0
+    padding: 0
+    li
+        list-style-type: none
+
+h1,h3,h4,h4,h5,h6,p
+    margin: 0
+
+img
+    max-width: 100%
+
+button
+    outline: none
+    border: none
+
+
+.button
+    display: inline-flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    font-family: "Ano Bold",sans-serif
+    font-size: 22px
+    font-weight: 700
+    border-radius: 1px
+    padding: 0 45px
+    cursor: pointer
+    &.higher
+        height: 75px
+    &.standard-height
+        height: 70px
+    &.dark-orange
+        color: $white-color
+        background-color: $orange-color
+    &.dark-violet
+        background-color: $color-dark-violet
+        color: $white-color
+    &.link-button
+        width: 100%
+        padding: 0 30px
+        .svg-icon
+            display: flex
+            margin-left: 17px
+        &.light-blue
+            background-color: rgba(24, 146, 244, 1)
+            color: $white-color
+        &.dark-blue
+            background-color: rgba(92, 107, 192, 1)
+            color: $white-color
+
+
+.w-100
+    width: 100%
+
+.section
+    &__main-title
+        font-family: 'new-spirit', sans-serif
+        font-weight: 600
+        font-size: 63px
+        letter-spacing: 0.627513px
+    &__small-title
+        font-family: 'new-spirit', sans-serif
+        font-weight: 600
+        font-size: 24px
+        line-height: 30px
+        margin-bottom: 30px
+        color: $white-color
+    &__little-title
+        font-family: 'Ano Bold', sans-serif
+        font-weight: 700
+        font-size: 22px
+    &__description
+        font-family: 'Ano Regular', sans-serif
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        .bold
+            font-family: 'Ano Bold', sans-serif
+            font-weight: 700
+
+
+.standard-input
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: transparent
+    height: 70px
+    width: 100%
+    color: rgba(54, 35, 83, 1)
+    font-family: 'Ano Bold', sans-serif
+    border: 2.5px solid #362353
+    font-size: 22px
+    font-weight: 400
+    padding-left: 36px
+    text-align: left
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    &:focus-visible
+        outline: none
+    &::-webkit-input-placeholder
+        font-size: 22px
+        color: rgba(54, 35, 83, 1)
+    &:-moz-placeholder
+        font-size: 22px
+        color: rgba(54, 35, 83, 1)
+    &::-moz-placeholder
+        font-size: 22px
+        color: rgba(54, 35, 83, 1)
+    &:-ms-input-placeholder
+        font-size: 22px
+        color: rgba(54, 35, 83, 1)
+    &::placeholder
+        font-size: 22px
+        color: rgba(54, 35, 83, 1)

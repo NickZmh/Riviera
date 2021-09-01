@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'AnoBlackRegular';
+  src: url("../fonts/AnoBlackRegular/AnoBlackRegular.eot");
+  src: url("../fonts/AnoBlackRegular/AnoBlackRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/AnoBlackRegular/AnoBlackRegular.woff2") format("woff2"), url("../fonts/AnoBlackRegular/AnoBlackRegular.woff") format("woff"), url("../fonts/AnoBlackRegular/AnoBlackRegular.svg#AnoBlackRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
+  font-family: 'Ano Bold';
+  src: url("../fonts/AnoBoldRegular/AnoBoldRegular.eot");
+  src: url("../fonts/AnoBoldRegular/AnoBoldRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/AnoBoldRegular/AnoBoldRegular.woff2") format("woff2"), url("../fonts/AnoBoldRegular/AnoBoldRegular.woff") format("woff"), url("../fonts/AnoBoldRegular/AnoBoldRegular.svg#AnoBoldRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
+  font-family: 'Ano Regular';
+  src: url("../fonts/AnoRegular/AnoRegularRegular.eot");
+  src: url("../fonts/AnoRegular/AnoRegularRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/AnoRegular/AnoRegularRegular.woff2") format("woff2"), url("../fonts/AnoRegular/AnoRegularRegular.woff") format("woff"), url("../fonts/AnoRegular/AnoRegularRegular.svg#AnoRegularRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
+  font-family: 'AnoRegularUpperLowerItalic';
+  src: url("../fonts/AnoRegularUpperLowerItalic/AnoRegularUpperLowerItalic.eot");
+  src: url("../fonts/AnoRegularUpperLowerItalic/AnoRegularUpperLowerItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AnoRegularUpperLowerItalic/AnoRegularUpperLowerItalic.woff2") format("woff2"), url("../fonts/AnoRegularUpperLowerItalic/AnoRegularUpperLowerItalic.woff") format("woff"), url("../fonts/AnoRegularUpperLowerItalic/AnoRegularUpperLowerItalic.svg#AnoRegularUpperLowerItalic/AnoRegularUpperLowerItalic") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }

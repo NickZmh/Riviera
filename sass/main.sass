@@ -29,7 +29,295 @@ body textarea:required:valid
 //Custom Styles Here
 
 body
-	background-color: #ffc107
+	margin: 0
+	line-height: 1.2
+	background-color: $color-dark-violet
+
+
+@import "settings-component"
+
+header
+	padding-top: 70px
+	padding-bottom: 60px
+	.logo
+		.svg-icon
+			display: flex
+			width: 65px
+
+.tiles-wrapper
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	flex-grow: 1
+	margin-right: -20px
+	margin-left: -20px
+	&.light-color
+		.tile-body
+			.tile
+				background-color: $color-violet
+	.tile-body
+		padding: 0 20px
+		width: 33.33%
+		.tile
+			background-color: $color-dark-violet
+			position: relative
+			height: 100%
+			min-height: 295px
+			display: flex
+			flex-direction: column
+			align-items: flex-end
+			justify-content: flex-end
+			img
+				display: block
+			&.play
+				img
+					margin-right: 6px
+					margin-bottom: 40px
+			&.farm
+				img
+					margin-right: 30px
+					margin-bottom: 30px
+			&.stake
+				img
+					margin-right: 18px
+					margin-bottom: 35px
+			&.double
+				img
+					margin-bottom: 24px
+			&.terra
+				img
+					margin-bottom: 24px
+					width: 100%
+			&.roulette
+				img
+					margin-bottom: 24px
+			&.slots
+				img
+					margin-right: 13px
+					margin-bottom: 40px
+			.section__little-title
+				position: absolute
+				top: 36px
+				left: 36px
+				color: $white-color
+
+
+.section
+	overflow: hidden
+
+.main-banner
+	position: relative
+	padding-bottom: 110px
+	&::after
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		bottom: 0
+		height: 100%
+		width: 47vw
+		background-color: $color-violet
+		z-index: -1
+	.section__main-title
+		//margin-top: 20px
+	.content-wrapper
+		max-width: 410px
+		.button
+			margin-top: 115px
+	.side-content-wrapper
+		display: flex
+		flex-direction: row
+		.img-wrapper
+			position: relative
+			width: 100%
+			max-width: 480px
+			margin-left: 40px
+			margin-right: 45px
+			&::after
+				content: ""
+				position: absolute
+				top: -45px
+				right: -110px
+				background-image: url("../img/main-banner-img-snippet.png")
+				width: 157px
+				height: 157px
+				background-position: center
+				background-size: cover
+				background-repeat: no-repeat
+			img
+				display: block
+		.content-block-wrapper
+			max-width: 300px
+			display: flex
+			flex-direction: column
+			justify-content: flex-end
+			align-items: flex-end
+			.img-snippet
+				max-width: 110px
+			.text-wrapper
+				padding-right: 60px
+				.section__small-title
+					margin-top: 20px
+
+
+.main-wrapper
+	display: flex
+	flex-direction: row
+	.text-container
+		max-width: 240px
+		margin-right: 80px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: flex-start
+.roll-section
+	padding: 120px 0
+	.main-wrapper
+		.tiles-wrapper
+			.tile-body
+				.tile
+					img
+						padding-left: 36px
+
+.snippet-container
+	position: relative
+	&::before
+		content: ''
+		position: absolute
+		z-index: 150
+		top: -110px
+		background-image: url("../img/game-section-snippet.png")
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		width: 147px
+		height: 147px
+
+.games-section
+	padding: 80px 0
+	background-color: $color-violet
+	.main-wrapper
+		.text-container
+			padding-right: 30px
+
+	.tiles-wrapper
+		.tile-body
+			.tile
+				align-items: flex-start
+
+.new-games
+	overflow: initial
+	//padding-top: 120px
+	.wrapper-block
+		display: flex
+		flex-direction: row
+	.side-block
+		position: relative
+		//max-width: 290px
+		padding: 80px 0
+		bottom: -120px
+		&::before
+			position: absolute
+			z-index: 1
+			content: ""
+			width: 4000px
+			height: 100%
+			top: 0
+			right: -70px
+			background-color: $color-violet
+		.top-block
+			max-width: 240px
+			position: relative
+			z-index: 10
+		.tiles-wrapper
+			position: relative
+			z-index: 10
+			flex-direction: column
+			margin-top: 50px
+			.tile-body
+				width: 100%
+				margin-bottom: 50px
+				&:last-of-type
+					margin-bottom: 0
+				.tile
+					width: 294px
+	.img-block
+		width: 100%
+		max-width: 520px
+		margin-left: 25px
+		position: relative
+		z-index: -2
+	.right-side
+		display: flex
+		flex-direction: row
+		flex-grow: 1
+		justify-content: space-between
+		padding-top: 120px
+		.text-block
+			width: 100%
+			max-width: 290px
+			margin-left: 40px
+			.top-block
+				padding-right: 50px
+			.button-wrapper
+				margin-top: 80px
+				.button
+					margin-bottom: 40px
+					&:last-of-type
+						margin-bottom: 0
+
+footer
+	position: relative
+	overflow: initial!important
+	padding-top: 110px
+	padding-bottom: 130px
+	background-color: $green-color
+	&::after
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		background-image: url("../img/footer-main-banner.png")
+		background-repeat: no-repeat
+		background-size: contain
+		background-position: bottom left
+		width: 40vw
+		height: 280px
+	.section__main-title
+		margin-bottom: 30px
+	.break-word
+		display: flex
+	.content-wrapper
+		display: flex
+		flex-direction: row
+		justify-content: flex-end
+		.content-block
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			width: 100%
+			max-width: 770px
+			.context-side
+				max-width: 300px
+		.form-block
+			display: flex
+			flex-direction: column
+			justify-content: flex-end
+			align-items: flex-end
+			position: relative
+			//top: -190px
+			width: 100%
+			max-width: 400px
+			.img-wrapper
+				position: relative
+				width: 100%
+			img
+				bottom: 0
+				right: 0
+				position: absolute
+				width: 95%
+			.button
+				margin-top: 30px
 
 //ALWAYS END
 @import "media"
