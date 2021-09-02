@@ -79,6 +79,9 @@ button {
   .button.dark-violet {
     background-color: #170038;
     color: #ffffff; }
+  .button.green {
+    background-color: #1CD4A2;
+    color: #170038; }
   .button.link-button {
     width: 100%;
     padding: 0 30px; }
@@ -189,22 +192,30 @@ header {
       .tiles-wrapper .tile-body .tile img {
         display: block; }
       .tiles-wrapper .tile-body .tile.play img {
+        width: 86%;
         margin-right: 6px;
         margin-bottom: 40px; }
       .tiles-wrapper .tile-body .tile.farm img {
+        width: 44%;
         margin-right: 30px;
         margin-bottom: 30px; }
       .tiles-wrapper .tile-body .tile.stake img {
+        width: 58%;
         margin-right: 18px;
         margin-bottom: 35px; }
+      .tiles-wrapper .tile-body .tile.coin img {
+        width: 70%; }
       .tiles-wrapper .tile-body .tile.double img {
+        width: 85%;
         margin-bottom: 24px; }
       .tiles-wrapper .tile-body .tile.terra img {
         margin-bottom: 24px;
         width: 100%; }
       .tiles-wrapper .tile-body .tile.roulette img {
-        margin-bottom: 24px; }
+        width: 80%;
+        margin-bottom: 28px; }
       .tiles-wrapper .tile-body .tile.slots img {
+        width: 75%;
         margin-right: 13px;
         margin-bottom: 40px; }
       .tiles-wrapper .tile-body .tile .section__little-title {
@@ -281,8 +292,6 @@ header {
 
 .roll-section {
   padding: 120px 0; }
-  .roll-section .main-wrapper .tiles-wrapper .tile-body .tile img {
-    padding-left: 36px; }
 
 .snippet-container {
   position: relative; }

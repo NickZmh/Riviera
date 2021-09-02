@@ -50,6 +50,9 @@ button {
   .button.dark-violet {
     background-color: #170038;
     color: #ffffff; }
+  .button.green {
+    background-color: #1CD4A2;
+    color: #170038; }
   .button.link-button {
     width: 100%;
     padding: 0 30px; }
