@@ -3,13 +3,248 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px)
-	/**/
 
+@media only screen and (max-width : 1400px)
+	.main-banner
+		.section__main-title
+			font-size: 60px
+			.break-word
+				display: flex
+		.side-content-wrapper
+			.img-wrapper
+				min-width: 480px
+				margin-left: 20px
+				margin-right: 40px
+				&::after
+					top: -40px
+					right: -100px
+					width: 150px
+					height: 150px
+
+	.main-wrapper
+		.text-container
+			margin-right: 60px
+
+	.snippet-container
+		&::before
+			top: -90px
+			width: 127px
+			height: 127px
+
+
+@media only screen and (max-width : 1300px)
+	.main-banner
+		.section__main-title
+			font-size: 56px
+		.side-content-wrapper
+			.img-wrapper
+				min-width: 430px
+				margin-left: 15px
+				margin-right: 30px
+				&::after
+					top: -40px
+					right: -80px
+					width: 140px
+					height: 140px
+			.content-block-wrapper
+				.img-snippet
+					max-width: 90px
+			.content-block-wrapper
+				max-width: 280px
+				.text-wrapper
+					padding-right: 40px
+
+	.main-wrapper
+		.text-container
+			margin-right: 40px
+
+	.tiles-wrapper
+		margin-right: -14px
+		margin-left: -14px
+		.tile-body
+			padding: 0 14px
+			.tile
+				.section__little-title
+					top: 28px
+					left: 28px
+				&.play
+					img
+						width: 86%
+						margin-right: .5vw
+						margin-bottom: 3.6vw
+				&.farm
+					img
+						width: 44%
+						margin-right: 2vw
+						margin-bottom: 2vw
+				&.stake
+					img
+						width: 58%
+						margin-right: 1.5vw
+						margin-bottom: 3vw
+				&.coin
+					img
+						width: 70%
+				&.double
+					img
+						width: 85%
+						margin-bottom: 24px
+				&.terra
+					img
+						margin-bottom: 24px
+						width: 100%
+				&.roulette
+					img
+						width: 80%
+						margin-bottom: 28px
+				&.slots
+					img
+						width: 75%
+						margin-right: 13px
+						margin-bottom: 40px
+
+	.snippet-container
+		&::before
+			top: -80px
+			width: 117px
+			height: 117px
+
+@media only screen and (max-width : 1200px)
+
+	.section__small-title
+		font-size: 22px
+		line-height: 28px
+	.section__little-title
+		font-size: 20px
+	.section__description
+		font-size: 15px
+
+	.button
+		font-size: 20px
+		&.higher
+			height: 70px
+		&.standard-height
+			height: 60px
+
+	.main-banner
+		.section__main-title
+			font-size: 50px
+		.side-content-wrapper
+			.img-wrapper
+				margin-left: 0
+			.content-block-wrapper
+				max-width: 240px
+				.img-snippet
+					max-width: 80px
+				.text-wrapper
+					padding-right: 15px
+					.section__small-title
+						margin-top: 15px
+
+
+	.main-wrapper
+		.text-container
+			max-width: 210px
+
+	.tiles-wrapper
+		.tile-body
+			.tile
+				min-height: 270px
+
+	.snippet-container
+		&::before
+			top: -70px
+			width: 107px
+			height: 107px
+
+	.games-section
+		.main-wrapper
+			.text-container
+				padding-right: 10px
+
+@media only screen and (max-width : 1100px)
+
+
+	.button
+		&.higher
+			height: 64px
+
+	.main-banner
+		.section__main-title
+			font-size: 46px
+		.content-wrapper
+			.button
+				margin-top: 100px
+		.side-content-wrapper
+			.img-wrapper
+				min-width: 320px
+				margin-right: 20px
+				&::after
+					top: -30px
+					right: -70px
+					width: 130px
+					height: 130px
+			.content-block-wrapper
+				max-width: 220px
+				.text-wrapper
+					padding-right: 0
+
+	.main-wrapper
+		.text-container
+			margin-right: 15px
+			.section__small-title
+				margin-bottom: 20px
+	.tiles-wrapper
+		margin-left: -10px
+		margin-right: -10px
+		.tile-body
+			padding: 0 10px
+			.tile
+				min-height: 240px
+	.snippet-container
+		&::before
+			top: -70px
+			width: 97px
+			height: 97px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+
+	header
+		padding-top: 60px
+
+	.main-banner
+		padding-bottom: 0
+		&::after
+			width: 80%
+			height: 56%
+		.content-wrapper
+			max-width: 540px
+			margin-bottom: 80px
+			.button
+				margin-top: 80px
+		.section__main-title
+			.break-word
+				display: inline-flex
+		.side-content-wrapper
+			.img-wrapper
+				margin-left: -30px
+				margin-right: 30px
+				&::after
+					top: -25px
+					right: -75px
+
+	.main-wrapper
+		flex-direction: column
+		.text-container
+			max-width: 380px
+			.section__small-title
+				max-width: 280px
+		.top-block
+			margin-bottom: 40px
+		.button
+			margin-bottom: 40px
+
 
 
 /* Small Devices, Tablets */
@@ -36,6 +271,33 @@
 		-ms-animation: none !important
 		animation: none !important
 
+	.main-banner
+		.side-content-wrapper
+			flex-direction: column
+			.content-block-wrapper
+				justify-content: center
+				max-width: 100%
+				.text-wrapper
+					order: 1
+					margin-top: 60px
+					margin-bottom: 10px
+				.img-snippet
+					order: 2
+			.img-wrapper
+				margin-right: 0
+				max-width: 100%
+
+	.tiles-wrapper
+		flex-direction: column
+		.tile-body
+			width: 100%
+			max-width: 300px
+			margin-bottom: 30px
+			.tile
+				min-height: 270px
+
+	.roll-section
+		padding-top: 20px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
