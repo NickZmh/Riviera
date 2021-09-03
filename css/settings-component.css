@@ -36,7 +36,7 @@ button {
   justify-content: center;
   font-family: "Ano Regular",sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   border-radius: 1px;
   padding: 0 45px;
   cursor: pointer; }
@@ -105,7 +105,7 @@ button {
   height: 70px;
   width: 100%;
   color: #362353;
-  font-family: 'Ano Bold', sans-serif;
+  font-family: 'Ano Regular', sans-serif;
   border: 2.5px solid #362353;
   font-size: 22px;
   font-weight: 400;

@@ -28,10 +28,14 @@ body textarea:required:valid
 
 //Custom Styles Here
 
+html
+	overflow-x: hidden
+
 body
 	margin: 0
 	line-height: 1.2
 	background-color: $color-dark-violet
+	overflow-x: hidden
 
 
 @import "settings-component"
@@ -40,6 +44,7 @@ header
 	padding-top: 70px
 	padding-bottom: 60px
 	.logo
+		display: inline-flex
 		.svg-icon
 			display: inline-flex
 			width: 65px

@@ -25,4 +25,21 @@ $(function() {
 		return false;
 	});
 
+
+	$(document).ready(function () {
+
+		var newGamesBlock = $('.new-games');
+
+
+		$(window).on('resize', function () {
+			if($(window).outerWidth < 768) {
+
+				newGamesBlock.append('<style>column:before{width:800px !important;}</style>');
+
+			}
+		})
+
+
+	});
+
 });
