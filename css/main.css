@@ -597,6 +597,7 @@ footer {
     margin-top: 100px; }
   .main-banner .side-content-wrapper .img-wrapper {
     min-width: 320px;
+    max-width: 370px;
     margin-right: 20px; }
     .main-banner .side-content-wrapper .img-wrapper::after {
       top: -30px;
@@ -637,7 +638,7 @@ footer {
     padding-bottom: 0; }
     .main-banner::after {
       width: 80%;
-      height: 56%; }
+      height: 62%; }
     .main-banner .content-wrapper {
       max-width: 540px;
       margin-bottom: 80px; }
@@ -646,7 +647,7 @@ footer {
     .main-banner .section__main-title .break-word {
       display: inline-flex; }
     .main-banner .side-content-wrapper .img-wrapper {
-      margin-left: -30px;
+      margin-left: -23px;
       margin-right: 30px; }
       .main-banner .side-content-wrapper .img-wrapper::after {
         top: -25px;
@@ -727,13 +728,13 @@ footer {
       .main-banner .side-content-wrapper .content-block-wrapper .img-snippet {
         order: 2; }
     .main-banner .side-content-wrapper .img-wrapper {
-      margin-left: -66px;
+      margin-left: -132px;
       margin-right: 0;
-      max-width: 100%; }
+      max-width: 420px; }
       .main-banner .side-content-wrapper .img-wrapper::after {
         width: 120px;
         height: 120px;
-        top: -10px;
+        top: -25px;
         right: -45px; }
   .tiles-wrapper {
     flex-direction: column;
@@ -866,7 +867,8 @@ footer {
     align-items: center; }
     .main-banner .side-content-wrapper .img-wrapper {
       min-width: initial;
-      margin-left: -47px; }
+      margin-left: -87px;
+      max-width: 90%; }
       .main-banner .side-content-wrapper .img-wrapper::after {
         width: 0; }
     .main-banner .side-content-wrapper .content-block-wrapper {
@@ -1004,7 +1006,8 @@ footer {
   .main-banner .content-wrapper {
     max-width: 240px; }
   .main-banner .side-content-wrapper .img-wrapper {
-    margin-left: -26px; }
+    margin-left: -34px;
+    max-width: 100%; }
   .tiles-wrapper .tile-body .tile {
     min-height: 230px; }
     .tiles-wrapper .tile-body .tile.farm img {
